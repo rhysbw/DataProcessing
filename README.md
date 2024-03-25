@@ -12,9 +12,9 @@ This Python script processes behavior data from Excel files. It's useful for res
 ![image](https://github.com/rhysbw/DataProcessing/assets/93877064/87a565aa-5dae-462a-a81e-c36285216ee8)
 
 5.  Open CMD/Terminal and Navigate to the New Folder you created in step 1
-    a) type `cd `
-    b) drag and drop the New Folder you created in step 1 into the CMD window
-    c) hit enter
+    1.  type `cd `
+    2.  drag and drop the New Folder you created in step 1 into the CMD window
+    3.  hit enter
 6.  Run the script by executing the following command in your terminal:
 `python behavior_data_processing.py`
 7. The script will process the data and save the output to new Excel files in a directory named OutputSheets.
