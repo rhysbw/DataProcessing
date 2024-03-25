@@ -5,7 +5,7 @@ This Python script processes behavior data from Excel files. It's useful for res
 ## Usage (on MacOS you may need to use python3 instead of python in the commands bellow)
 
 1. Create a New Folder/Directory (called anything)
-2. Download the files `behavior_data_processing.py` and `requirements.txt`
+2. Download the files `behavior_data_processing.py` and `requirements.txt` (to that folder)
 3. Run:
  `pip install -r requirements.txt` or `python -m pip install -r requirements.txt`
 4. Place your Excel files in a directory named InputSheets in the same directory as the Python script.
