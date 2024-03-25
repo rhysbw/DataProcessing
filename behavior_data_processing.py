@@ -205,8 +205,10 @@ def process_files(target_dir, all_grouped_data):
     :param target_dir: folder with input files
     :param all_grouped_data: class instance to store the grouped data
     """
+    treatmeant = 1
     for filename in os.listdir(target_dir):
-        treatment_condition = os.path.splitext(filename)[0]
+        treatment_condition = treatmeant
+        treatmeant += 1
         df = pd.read_excel(os.path.join(target_dir, filename))
         all_grouped_data.integrate_new_data(df, treatment_condition)
 
