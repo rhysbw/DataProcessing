@@ -207,8 +207,9 @@ def process_files(target_dir, all_grouped_data):
     """
     treatmeant = 1
     for filename in os.listdir(target_dir):
-        treatment_condition = treatmeant
-        treatmeant += 1
+        """treatment_condition = treatmeant
+        treatmeant += 1"""
+        treatment_condition = os.path.splitext(filename)[0]
         df = pd.read_excel(os.path.join(target_dir, filename))
         all_grouped_data.integrate_new_data(df, treatment_condition)
 
